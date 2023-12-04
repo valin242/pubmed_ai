@@ -5,6 +5,9 @@ PubMed Scraper: Retrieve papers with a specific search match
 @author(s): Valinteshley Pierre
 
 References
+Comeau DC, Wei CH, Islamaj Doğan R, and Lu Z. PMC text mining subset in BioC: about 3 million full text articles and growing, Bioinformatics, btz070, 2019.
+PMC Open Access Subset [Internet]. Bethesda (MD): National Library of Medicine. 2003 - [cited 2023 12 04]. Available from https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/.
+
 Pubmed
 License argreements
 """
