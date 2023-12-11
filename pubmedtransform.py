@@ -10,8 +10,10 @@ License argreements
 """
 from pubmedscraper import RetrieveFromPub as rfp
 import pandas as pd
+import torch
+import torchtext
 from transformers import GPT2Tokenizer, GPT2Model
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 from torch.optim import Adam
 
 
