@@ -28,7 +28,7 @@ class RetrieveFromPub():
     # get list of IDs of studies that match your query
     def search(self):
         Entrez.email = 'vdp14@case.edu'
-        handle = Entrez.esearch(db='pubmed', sort='relevance', retmax='250000', retmode='xml', term=self.query)
+        handle = Entrez.esearch(db='pubmed', sort='relevance', retmax='20', retmode='xml', term=self.query)
         results = Entrez.read(handle)
         self.studiesIdList = results['IdList']
         return self.studiesIdList
